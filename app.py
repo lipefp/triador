@@ -1,3 +1,16 @@
 import os 
 from dotenv import load_dotenv
-import google.generativeai as genia
+from google import genai
+
+load_dotenv()
+
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+
+chamado = "Meu computador não liga depois da atualização do Windows."
+
+response = client.models.generate_content(
+    model="gemini-2.0-flash",
+    contents=chamado
+)
+
+print(response.txt)
