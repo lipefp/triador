@@ -9,8 +9,8 @@ client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 chamado = "Meu computador não liga depois da atualização do Windows."
 
 response = client.models.generate_content(
-    model="gemini-2.0-flash",
+    model="gemini-3.8-flash",
     contents=chamado
 )
 
-print(response.txt)
+print(response.text)
