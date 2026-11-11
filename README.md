@@ -47,4 +47,4 @@ triador/
 
 ## Motivação
 
-Projeto desenvolvido como estudo prático de aplicações com LLM, com foco na trilha AI Builder do Programa de Estágio GenAI do iFood.
+Estudo prático de aplicações com LLM aplicado a um problema real: a triagem de chamados de suporte de TI, área em que atuo no dia a dia.
