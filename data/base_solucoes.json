@@ -1,0 +1,27 @@
+[
+  {
+    "categoria": "Hardware",
+    "problema": "computador não liga",
+    "solucao": "Verifique o cabo de energia, tente outro cabo ou tomada. Se tiver nobreak, teste sem ele."
+  },
+  {
+    "categoria": "Software",
+    "problema": "sistema lento após atualização",
+    "solucao": "Reinicie o computador. Se persistir, verifique programas na inicialização e use o Gerenciador de Tarefas."
+  },
+  {
+    "categoria": "Rede",
+    "problema": "sem internet",
+    "solucao": "Reinicie o roteador. Verifique o cabo de rede ou reconecte ao Wi-Fi."
+  },
+  {
+    "categoria": "Acesso",
+    "problema": "senha expirada ou bloqueada",
+    "solucao": "Entre em contato com o suporte para redefinição de senha."
+  },
+  {
+    "categoria": "Impressora",
+    "problema": "impressora não imprime",
+    "solucao": "Verifique se está ligada e conectada. Cancele a fila de impressão e tente novamente."
+  }
+]
